@@ -10,6 +10,7 @@ kubectl get pods -w - to watch the pods
 kubectl get replicasets - to get replicaset
 kubectl logs <pod-name> - to get logs of that pods
 kubectl rollout history deployment redis-deployment - to Check the rollout history to see if there were recent changes that might have caused the issue
-
+kubectl describe pod <podname>
+kubectl exec -it <podname> -c <containername> -- sh  -to enter into that particular pods container and work in it.
 
 
