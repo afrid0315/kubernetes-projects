@@ -19,3 +19,5 @@
 #### kubectl get namespace -> to get namespace
 #### kubectl get svc -> to get service
 #### kubectl get svc --namespace=<my-namespace> -> to get services which are of particular namespace.
+#### kubectl create secret generic database --from-literal=MYSQL_ROOT_PASSWORD=ssdfgv --from-literal=MYSQL_DATABASE=cfghjjncd  -> to create secrets of key value pair in database.
+#### kubectl cp /host/filepath <podname>:/containerpath -c <containername> -> to copy file from host to particular container.
