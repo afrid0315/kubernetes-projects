@@ -24,3 +24,5 @@
 #### kubectl create secret generic mysql-root-pass --from-literal=password=R00t  ->
 #### kubectl expose deployment lemp-wp --type=NodePort --port=80 --name=lemp-service
 #### k edit svc
+#### kubectl cp /tmp/index.php lemp-wp-699bc8d7df-s5hsn:/app -c nginx-php-container
+#### kubectl exec -it lemp-wp-699bc8d7df-s5hsn -c nginx-php-container -- sh
