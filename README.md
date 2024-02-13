@@ -21,8 +21,7 @@
 #### kubectl get svc --namespace=<my-namespace> -> to get services which are of particular namespace.
 #### kubectl create secret generic database --from-literal=MYSQL_ROOT_PASSWORD=ssdfgv --from-literal=MYSQL_DATABASE=cfghjjncd  -> to create secrets of key value pair in database.
 #### kubectl cp /host/filepath <podname>:/containerpath -c <containername> -> to copy file from host to particular container.
-#### kubectl create secret generic mysql-root-pass --from-literal=password=R00t  ->
-#### kubectl expose deployment lemp-wp --type=NodePort --port=80 --name=lemp-service
+#### kubectl create secret generic mysql-root-pass --from-literal=password=R00t  -> to create secrets of key value pair.
+#### kubectl expose deployment <pod-name> --type=NodePort --port=80 --name=<service-name> -> creating nodeport service using command
 #### k edit svc
-#### kubectl cp /tmp/index.php lemp-wp-699bc8d7df-s5hsn:/app -c nginx-php-container
-#### kubectl exec -it lemp-wp-699bc8d7df-s5hsn -c nginx-php-container -- sh
+
