@@ -24,4 +24,6 @@
 #### kubectl create secret generic mysql-root-pass --from-literal=password=R00t  -> to create secrets of key value pair.
 #### kubectl expose deployment <pod-name> --type=NodePort --port=80 --name=<service-name> -> creating nodeport service using command
 #### k edit svc
+#### kubectl get pod -o wide (-o=output)  -> more detail of pod
+#### kubectl edit deployment <deployment-name> -o yaml > deployment.yaml  -> to copy deployment file to deployment.yaml
 
