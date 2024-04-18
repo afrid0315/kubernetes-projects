@@ -28,6 +28,7 @@
 #### kubectl get deployment <deployment-name> -o yaml > deployment.yaml  -> to copy deployment file to deployment.yaml
 #### kubectl scale --replicaset=6 -f replicaset.yml -> to scale or replace replica value
 #### kubectl run nginx --image=nginx -> without yaml we can directly create pod using name and image
+#### kubectl get pods --all-namespace (or) kubectl get pods -A -> these gives all pods present in different namespaces
 
 ## Generate POD Manifest YAML file (-o yaml). Don’t create it(–dry-run)
 
@@ -49,4 +50,5 @@
 
 #### kubectl create -f nginx-deployment.yaml
 
-#### kubectl get pods --all-namespace (or) kubectl get pods -A -> these gives all pods present in different namespaces
+#### kubectl set image deployment nginx nginx=nginx:1.18 -> to update existing deployment image 
+
