@@ -26,4 +26,4 @@
 #### k edit svc
 #### kubectl get pod -o wide (-o=output)  -> more detail of pod
 #### kubectl get deployment <deployment-name> -o yaml > deployment.yaml  -> to copy deployment file to deployment.yaml
-
+#### kubectl scale --replicaset=6 -f replicaset.yml -> to scale or replace replica value
