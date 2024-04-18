@@ -48,3 +48,5 @@
 ## Make necessary changes to the file (for example, adding more replicas) and then create the deployment.
 
 #### kubectl create -f nginx-deployment.yaml
+
+#### kubectl get pods --all-namespace (or) kubectl get pods -A -> these gives all pods present in different namespaces
