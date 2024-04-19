@@ -37,6 +37,7 @@ https://github.com/kodekloudhub/certified-kubernetes-administrator-course?tab=re
 #### kubectl label nodes node01 color=blue
 #### kubectl taint nodes controlplane key=value:NoSchedule-
 #### kubectl describe node controlplane
+#### kubectl get daemonsets --all-namespaces -> to get daemonset which present in all namespace 
 
 ## Generate POD Manifest YAML file (-o yaml). Don’t create it(–dry-run)
 
