@@ -64,3 +64,5 @@ https://github.com/kodekloudhub/certified-kubernetes-administrator-course?tab=re
 ## Create a Service named nginx of type NodePort to expose pod nginx’s port 80 on port 30080 on the nodes:
 
 #### kubectl expose pod nginx --type=NodePort --port=80 --name=nginx-service --dry-run=client -o yaml
+
+#### press capital v and select the lines of yaml and click shift+. >so the alignment will be done
