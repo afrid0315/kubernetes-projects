@@ -34,6 +34,9 @@ https://github.com/kodekloudhub/certified-kubernetes-administrator-course?tab=re
 #### kubectl get pods --all-namespace (or) kubectl get pods -A -> these gives all pods present in different namespaces
 #### k get pods -L env -> to get labels of environment related pods
 #### k get pods --selector env=dev -> to get pods from selector with the environment of dev.
+#### kubectl label nodes node01 color=blue
+#### kubectl taint nodes controlplane key=value:NoSchedule-
+#### kubectl describe node controlplane
 
 ## Generate POD Manifest YAML file (-o yaml). Don’t create it(–dry-run)
 
