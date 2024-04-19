@@ -39,6 +39,7 @@ https://github.com/kodekloudhub/certified-kubernetes-administrator-course?tab=re
 #### kubectl describe node controlplane
 #### kubectl get daemonsets --all-namespaces -> to get daemonset which present in all namespace 
 #### kubectl get ds <daemonset-name> -n <kube-system-namespacename> --> ds means daemonset, -n means namespace
+#### kubectl get pods -A -> to findout static pods from all we use this command, but we get all pods will be listed here. So, at the end of pod if it mention with 'controlplane' name that we can considr as static pods.
 
 ## Generate POD Manifest YAML file (-o yaml). Don’t create it(–dry-run)
 
