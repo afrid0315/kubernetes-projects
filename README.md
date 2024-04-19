@@ -1,6 +1,8 @@
 # kubernetes-commands
 
 https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands
+
+https://github.com/kodekloudhub/certified-kubernetes-administrator-course?tab=readme-ov-file
 #### kubectl get pods -> to get pods
 #### kubectl get deployments -> to get deployments
 #### kubectl apply -f deployment -> to apply changes of deployment
