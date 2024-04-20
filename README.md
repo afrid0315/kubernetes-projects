@@ -51,6 +51,7 @@ https://jvns.ca/blog/2017/07/27/how-does-the-kubernetes-scheduler-work/
 #### kubectl get pods -A -> to findout static pods from all we use this command, but we get all pods will be listed here. So, at the end of pod if it mention with 'controlplane' name that we can considr as static pods.
 #### kubectl run webapp-green --image=kodekloud/webapp-color --restart=Never --command -- webapp-color --color=green -> to create pod with command line argument in imperative way.
 #### kubectl replace --force -f /tmp/<pod-name>  --> after tying to edit existing pod, but if u face issue then u can use replace command.
+#### k run webapp-color --image=kodekloud/webapp-color --env="webapp-color=green" --labels="app=webapp-color" --> to create pod with environment values in imperative way.
 
 ## Generate POD Manifest YAML file (-o yaml). Don’t create it(–dry-run)
 
