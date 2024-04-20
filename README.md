@@ -22,6 +22,8 @@ https://jvns.ca/blog/2017/07/27/how-does-the-kubernetes-scheduler-work/
 #### kubectl get replicasets -> to get replicaset
 #### kubectl logs <pod-name> -> to get logs of that pods
 #### kubectl rollout history deployment redis-deployment -> to Check the rollout history to see if there were recent changes that might have caused the issue
+#### kubectl rollout status deployment/my-deployment
+#### kubectl rollout undo deployment/my-deployment
 #### kubectl describe pod <podname> -> to get details of particular pods
 #### kubectl exec -it <podname> -c <containername> -- sh  -> to enter into that particular pods container and work in it.
 #### kubectl create namespace <my-namespace> -> to create a namespace
