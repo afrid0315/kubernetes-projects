@@ -69,6 +69,7 @@ https://jvns.ca/blog/2017/07/27/how-does-the-kubernetes-scheduler-work/
 #### kubectl create -f nginx-deployment.yaml
 
 #### kubectl set image deployment nginx nginx=nginx:1.18 -> to update existing deployment image 
+#### kubectl set image deployment/<deployment-name> <container-name>=kodekloud/webapp-color:v2
 
 ## Create a Service named redis-service of type ClusterIP to expose pod redis on port 6379
 
