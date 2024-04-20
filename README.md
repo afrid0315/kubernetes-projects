@@ -10,6 +10,12 @@ https://kubernetes.io/blog/2017/03/advanced-scheduling-in-kubernetes/
 
 https://jvns.ca/blog/2017/07/27/how-does-the-kubernetes-scheduler-work/
 
+https://kubernetes.io/docs/tasks/administer-cluster/encrypt-data/
+
+https://kubernetes.io/docs/concepts/configuration/secret/#protections
+
+
+
 #### kubectl get pods -> to get pods
 #### kubectl get deployments -> to get deployments
 #### kubectl apply -f deployment -> to apply changes of deployment
