@@ -3,6 +3,13 @@
 https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands
 
 https://github.com/kodekloudhub/certified-kubernetes-administrator-course?tab=readme-ov-file
+
+https://github.com/kubernetes/community/blob/master/contributors/devel/sig-scheduling/scheduling_code_hierarchy_overview.md
+
+https://kubernetes.io/blog/2017/03/advanced-scheduling-in-kubernetes/
+
+https://jvns.ca/blog/2017/07/27/how-does-the-kubernetes-scheduler-work/
+
 #### kubectl get pods -> to get pods
 #### kubectl get deployments -> to get deployments
 #### kubectl apply -f deployment -> to apply changes of deployment
@@ -72,3 +79,10 @@ https://github.com/kodekloudhub/certified-kubernetes-administrator-course?tab=re
 #### kubectl expose pod nginx --type=NodePort --port=80 --name=nginx-service --dry-run=client -o yaml
 
 #### press capital v and select the lines of yaml and click shift+. >so the alignment will be done
+
+## Monitoring and Logging
+
+git clone https://github.com/kodekloudhub/kubernetes-metrics-server.git
+kubectl create -f kubernetes-metrics-server
+k top node - to know which is having more utilization in nodes
+k top pod - to know which is having more utilization in pods
