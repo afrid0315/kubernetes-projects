@@ -14,6 +14,12 @@ https://kubernetes.io/docs/tasks/administer-cluster/encrypt-data/
 
 https://kubernetes.io/docs/concepts/configuration/secret/#protections
 
+https://kubernetes.io/docs/tasks/administer-cluster/configure-upgrade-etcd/#backing-up-an-etcd-cluster
+
+https://github.com/etcd-io/website/blob/main/content/en/docs/v3.5/op-guide/recovery.md
+
+https://www.youtube.com/watch?v=qRPNuT080Hk
+
 
 
 #### kubectl get pods -> to get pods
