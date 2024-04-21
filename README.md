@@ -20,6 +20,9 @@ https://github.com/etcd-io/website/blob/main/content/en/docs/v3.5/op-guide/recov
 
 https://www.youtube.com/watch?v=qRPNuT080Hk
 
+https://www.youtube.com/watch?v=uUupRagM7m0&list=PL2We04F3Y_41jYdadX55fdJplDvgNGENo
+
+The GIT Repo for this tutorial can be found here: https://github.com/mmumshad/kubernetes-the-hard-way
 
 
 #### kubectl get pods -> to get pods
