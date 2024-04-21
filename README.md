@@ -1,5 +1,7 @@
 # kubernetes-commands
 
+https://kodekloud.com/courses/json-path-quiz/
+
 https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands
 
 https://github.com/kodekloudhub/certified-kubernetes-administrator-course?tab=readme-ov-file
