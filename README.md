@@ -1,5 +1,7 @@
 # kubernetes-commands
 
+https://www.kubernetes.dev/docs/onboarding/
+
 https://kodekloud.com/courses/json-path-quiz/
 
 https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands
