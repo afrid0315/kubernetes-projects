@@ -1,3 +1,7 @@
+# kubernetes-couponsLinkForExamination
+
+https://couponcause.com/stores/linux-foundation/?matchtype=e&device=c&network=g&creative=643034165747&keyword=linux%20foundation%20promo&targetid=kwd-332562668813&position=&adgroup=49768141332&locaton=9061552&locationint=&campaign=879582855&extention=&gclick=Cj0KCQjwiYOxBhC5ARIsAIvdH50USOjmICLMWOjWucnqmyfhrrviZTjExV753MSejQwhj5CvWf7qGwMaAvBsEALw_wcB&gad_source=1&gclid=Cj0KCQjwiYOxBhC5ARIsAIvdH50USOjmICLMWOjWucnqmyfhrrviZTjExV753MSejQwhj5CvWf7qGwMaAvBsEALw_wcB
+
 # kubernetes-commands
 
 https://www.kubernetes.dev/docs/onboarding/
