@@ -6,13 +6,21 @@ https://couponcause.com/stores/linux-foundation/?matchtype=e&device=c&network=g&
 # Key Learning Materials:
 
 https://kodekloud.com/courses/kubernetes-and-cloud-native-associate-kcna/ - Kubernetes and Cloud-Native Associate (KCNA) From KodeKloud
+
 https://app.exampro.co/student/journey/kcna - Kubernetes and Cloud Native Associate (KCNA) From Exam pro or youtube platform which is free on both
+
 https://training.linuxfoundation.org/training/introduction-to-kubernetes/
+
 https://github.com/walidshaari/Kubernetes-and-Cloud-Native-Associate
+
 https://github.com/moabukar/Kubernetes-and-Cloud-Native-Associate-KCNA/tree/main
+
 https://kube.academy/
+
 https://kubernetes.io/docs/home/
+
 https://www.edx.org/learn/linux/the-linux-foundation-introduction-to-linux
+
 https://www.edx.org/learn/cloud-computing/the-linux-foundation-introduction-to-cloud-infrastructure-technologies
 
 https://www.kubernetes.dev/docs/onboarding/
