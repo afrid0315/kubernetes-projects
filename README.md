@@ -5,6 +5,8 @@ https://couponcause.com/stores/linux-foundation/?matchtype=e&device=c&network=g&
 
 # Key Learning Materials:
 
+https://www.twitch.tv/awstraininglive/videos - aws related
+
 https://kodekloud.com/courses/kubernetes-and-cloud-native-associate-kcna/ - Kubernetes and Cloud-Native Associate (KCNA) From KodeKloud
 
 https://app.exampro.co/student/journey/kcna - Kubernetes and Cloud Native Associate (KCNA) From Exam pro or youtube platform which is free on both
