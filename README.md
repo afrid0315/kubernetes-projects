@@ -7,6 +7,8 @@ https://couponcause.com/stores/linux-foundation/?matchtype=e&device=c&network=g&
 
 https://www.twitch.tv/awstraininglive/videos - aws related
 
+https://skillbuilder.aws/exam-prep/solutions-architect-associate?trk=e459a8a0-cbc6-4b8b-8504-6f86706fc9b5&sc_channel=em&mkt_tok=MTEyLVRaTS03NjYAAAGTSlHmZCoh9ESq9JdyPQwCkT7-njx_LpKbhMj6M5cokZzOUCW957XeWX9hqBMFmg-mpQXqekCdJwJ43X1eO-sD2DU5dhgRIpK-h2iqcRiXPcSf35SCpG69 - aws
+
 https://kodekloud.com/courses/kubernetes-and-cloud-native-associate-kcna/ - Kubernetes and Cloud-Native Associate (KCNA) From KodeKloud
 
 https://app.exampro.co/student/journey/kcna - Kubernetes and Cloud Native Associate (KCNA) From Exam pro or youtube platform which is free on both
