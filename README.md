@@ -146,3 +146,5 @@ The GIT Repo for this tutorial can be found here: https://github.com/mmumshad/ku
 
 #### k create configmap webapp-config-map --from-literal=<APP_COLOR=darkblue> --from-literal=<APP_OTHER=disregard>  --> to create configmap in imperative way
 #### k run webapp-color --image=kodekloud/webapp-color --env="webapp-color=green" --labels="app=webapp-color" --> to create pod with environment values in imperative way.
+
+![image](https://github.com/afrid0315/kubernetes-projects/assets/126462435/2c068f7c-2c7c-4e12-a22e-129d088a712a)
