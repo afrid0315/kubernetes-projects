@@ -5,6 +5,8 @@ https://couponcause.com/stores/linux-foundation/?matchtype=e&device=c&network=g&
 
 # Key Learning Materials:
 
+https://collabnix.github.io/kubelabs/
+
 https://www.twitch.tv/awstraininglive/videos - aws related
 
 https://skillbuilder.aws/exam-prep/solutions-architect-associate?trk=e459a8a0-cbc6-4b8b-8504-6f86706fc9b5&sc_channel=em&mkt_tok=MTEyLVRaTS03NjYAAAGTSlHmZCoh9ESq9JdyPQwCkT7-njx_LpKbhMj6M5cokZzOUCW957XeWX9hqBMFmg-mpQXqekCdJwJ43X1eO-sD2DU5dhgRIpK-h2iqcRiXPcSf35SCpG69 - aws
