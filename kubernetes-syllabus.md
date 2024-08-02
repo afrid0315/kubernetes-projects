@@ -111,3 +111,12 @@ To cover Kubernetes fully without skipping any topic, you can follow a comprehen
 50. **Case Studies and Real-World Examples**
 
 By following this comprehensive list of topics, you will gain a deep understanding of Kubernetes and its various components, enabling you to effectively manage and deploy applications on Kubernetes clusters.
+
+Tasks need to complete
+• Extend the Kubernetes API with CRDs.
+• Identify the bottlenecks and improvise the underlying infrastructure.
+• Troubleshoot and Prevent roadblocks.
+• Automate the dev-ops flow and reduce the toil.
+• Define and Create custom metrics.
+• Optimize the Build and Deployment time.
+• Deal with out-of-the-blue problems like ndots.
