@@ -150,3 +150,32 @@ The GIT Repo for this tutorial can be found here: https://github.com/mmumshad/ku
 #### k run webapp-color --image=kodekloud/webapp-color --env="webapp-color=green" --labels="app=webapp-color" --> to create pod with environment values in imperative way.
 
 ![image](https://github.com/afrid0315/kubernetes-projects/assets/126462435/2c068f7c-2c7c-4e12-a22e-129d088a712a)
+
+
+25 Blogs to Learn 25 Kubernetes Concepts:
+
+1) Kubernetes Architecture: https://t.co/PuZ6YEwSUV
+2) POD Lifecycle: https://t.co/7yXNhSAEGN
+3) etcd Setup: https://t.co/LmfuzAOoYc
+4) etcd Locks: https://t.co/89EVkIkErU
+5) crashloopbackoff: https://t.co/o5fXH5AGCf
+6) OOMKilled: https://t.co/PodUWmEg8F
+7) ImagePullBackOff: https://t.co/WcgKxGIFie
+8) CreateContainerConfigError: https://t.co/gKOJEPOBqh
+9) CreateContainerError: https://t.co/aYGv3rOxDP
+10) RunContainerError: https://t.co/G5XYldSHOs
+11) Node Disk Pressure: https://t.co/rE79HfTIq8
+12) Node Not Ready:https://t.co/x93Bbczpqo
+13) Pod Disruption Budget: https://t.co/iyuoQ6LyeK
+14) RBAC: https://t.co/tPOuIhK9bn
+15) DNS Optimization: https://t.co/6rnRM5yEnp
+16) Kubernetes Controller: https://t.co/EcMvQ1JhSo
+17) pod.yaml Breakdown: https://t.co/JhnPhMIDeK
+18) Kubernetes Upgrades: https://t.co/43hVMt1JfU
+19) KEDA vs Karpenter: https://t.co/NAaOZCkf7S
+20) Operator vs Helm: https://t.co/eAsFl5DTAX
+21) Kubernetes Air Gap: https://t.co/TB7ZEVWV7w
+22) QoS Classes: https://t.co/pWOAiQSLDU 
+23) Kubernetes CI/CD: https://t.co/0fo0r61rJD
+24) Deployment Strategies: https://t.co/0iB7ZJjvf2
+25) Security Contexts: https://t.co/kkforsRFOz
