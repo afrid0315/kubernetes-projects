@@ -151,6 +151,8 @@ The GIT Repo for this tutorial can be found here: https://github.com/mmumshad/ku
 
 ![image](https://github.com/afrid0315/kubernetes-projects/assets/126462435/2c068f7c-2c7c-4e12-a22e-129d088a712a)
 
+![image](https://github.com/user-attachments/assets/a794913e-7d47-4d7c-8a41-ccb4f0294d7a)
+
 
 25 Blogs to Learn 25 Kubernetes Concepts:
 
