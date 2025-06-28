@@ -5,6 +5,8 @@ https://couponcause.com/stores/linux-foundation/?matchtype=e&device=c&network=g&
 
 # Key Learning Materials:
 
+https://notes.kodekloud.com/
+
 https://collabnix.github.io/kubelabs/
 
 https://www.twitch.tv/awstraininglive/videos - aws related
