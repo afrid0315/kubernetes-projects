@@ -146,6 +146,15 @@ The GIT Repo for this tutorial can be found here: https://github.com/mmumshad/ku
 #### k top node - to know which is having more utilization in nodes
 #### k top pod - to know which is having more utilization in pods
 
+## To apply a label color=blue to the node named node01
+
+#### kubectl label node node01 color=blue
+
+## To verify the label was applied
+
+#### kubectl get nodes --show-labels
+
+
 ## Configmap
 
 #### k create configmap webapp-config-map --from-literal=<APP_COLOR=darkblue> --from-literal=<APP_OTHER=disregard>  --> to create configmap in imperative way
