@@ -154,6 +154,7 @@ The GIT Repo for this tutorial can be found here: https://github.com/mmumshad/ku
 
 #### kubectl get nodes --show-labels
 
+#### k get daemonsets --all-namespaces ---> to check daemonsets with all namespaces
 
 ## Configmap
 
