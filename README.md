@@ -161,6 +161,10 @@ The GIT Repo for this tutorial can be found here: https://github.com/mmumshad/ku
 #### k create configmap webapp-config-map --from-literal=<APP_COLOR=darkblue> --from-literal=<APP_OTHER=disregard>  --> to create configmap in imperative way
 #### k run webapp-color --image=kodekloud/webapp-color --env="webapp-color=green" --labels="app=webapp-color" --> to create pod with environment values in imperative way.
 
+## PriorityClasses
+
+#### kubectl get pods -o custom-columns="NAME:.metadata.name,PRIORITY:.spec.priorityClassName" --> You can compare the priority classes on both pods using the above command
+
 ![image](https://github.com/afrid0315/kubernetes-projects/assets/126462435/2c068f7c-2c7c-4e12-a22e-129d088a712a)
 
 ![image](https://github.com/user-attachments/assets/a794913e-7d47-4d7c-8a41-ccb4f0294d7a)
