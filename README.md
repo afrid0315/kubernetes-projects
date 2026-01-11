@@ -186,10 +186,23 @@ The GIT Repo for this tutorial can be found here: https://github.com/mmumshad/ku
 
 ## Backup etcd commands
 
-etcdctl --endpoints=https://[127.0.0.1]:2379 --cacert=/etc/kubernetes/pki/etcd/ca.crt --cert=/etc/kubernetes/pki/etcd/server.crt --key=/etc/kubernetes/pki/etcd/server.key snapshot save /opt/snapshot-pre-boot.db
+#### etcdctl --endpoints=https://[127.0.0.1]:2379 --cacert=/etc/kubernetes/pki/etcd/ca.crt --cert=/etc/kubernetes/pki/etcd/server.crt --key=/etc/kubernetes/pki/etcd/server.key snapshot save /opt/snapshot-pre-boot.db
 
 ## Backup restore etcd commands
-etcdutl snapshot restore /opt/snapshot-pre-boot.db --data-dir=/var/lib/etcd-frombackup
+#### etcdutl snapshot restore /opt/snapshot-pre-boot.db --data-dir=/var/lib/etcd-frombackup
+
+=======================================================================================================================================================
+
+## CertificatesigningRequest
+
+#### k get csr 
+
+#### k get csr -o yaml
+
+#### k certificate approve/deny <certificate-person-nam>
+
+=========================================================================================================================================================
+
 
 ![image](https://github.com/afrid0315/kubernetes-projects/assets/126462435/2c068f7c-2c7c-4e12-a22e-129d088a712a)
 
