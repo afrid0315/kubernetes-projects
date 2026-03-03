@@ -203,6 +203,28 @@ The GIT Repo for this tutorial can be found here: https://github.com/mmumshad/ku
 
 =========================================================================================================================================================
 
+## Roles and rolebindings
+
+  # Create a role named "pod-reader" that allows user to perform "get", "watch" and "list" on pods
+  #### kubectl create role pod-reader --verb=get --verb=list --verb=watch --resource=pods
+  
+  # Create a role named "pod-reader" with ResourceName specified
+  #### kubectl create role pod-reader --verb=get --resource=pods --resource-name=readablepod --resource-name=anotherpod
+  
+  # Create a role named "foo" with API Group specified
+  #### kubectl create role foo --verb=get,list,watch --resource=rs.apps
+  
+  # Create a role named "foo" with SubResource specified
+  #### kubectl create role foo --verb=get,list,watch --resource=pods,pods/status
+
+  # Create a role binding for user1, user2, and group1 using the admin cluster role
+  #### kubectl create rolebinding admin --clusterrole=admin --user=user1 --user=user2 --group=group1
+  
+  # Create a role binding for service account monitoring:sa-dev using the admin role
+  #### kubectl create rolebinding admin-binding --role=admin --serviceaccount=monitoring:sa-dev
+
+
+========================================================================================================================================================
 
 ![image](https://github.com/afrid0315/kubernetes-projects/assets/126462435/2c068f7c-2c7c-4e12-a22e-129d088a712a)
 
