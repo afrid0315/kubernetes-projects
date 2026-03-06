@@ -223,6 +223,8 @@ The GIT Repo for this tutorial can be found here: https://github.com/mmumshad/ku
   ### Create a role binding for service account monitoring:sa-dev using the admin role
   #### kubectl create rolebinding admin-binding --role=admin --serviceaccount=monitoring:sa-dev
 
+  #### k auth can-i get nodes --as michelle
+
 
 ========================================================================================================================================================
 
