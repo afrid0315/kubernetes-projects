@@ -225,6 +225,8 @@ The GIT Repo for this tutorial can be found here: https://github.com/mmumshad/ku
 
   #### k auth can-i get nodes --as michelle
 
+  #### k get clusterroles --no-headers | wc -l --> if there is no. of roles or pods. we can use this command to get totoal count.
+
 
 ========================================================================================================================================================
 
