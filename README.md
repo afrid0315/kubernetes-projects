@@ -169,6 +169,8 @@ The GIT Repo for this tutorial can be found here: https://github.com/mmumshad/ku
 
 #### kubectl get serviceaccount -n kube-system
 
+#### kubectl get pods -o yaml | grep serviceAccountName
+
 ## to check cluster role binding
 
 #### kubectl get clusterrolebinding
