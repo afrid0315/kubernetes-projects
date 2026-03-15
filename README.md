@@ -229,7 +229,57 @@ The GIT Repo for this tutorial can be found here: https://github.com/mmumshad/ku
 
   #### k get clusterroles --no-headers | wc -l --> if there is no. of roles or pods. we can use this command to get totoal count.
 
+=======================================================================================================================
+## ip Command - For Network Interface & Route Information
 
+#### Show all interfaces
+### ip link show
+
+#### Show IP addresses assigned to interfaces
+### ip addr show
+
+#### Show routing table
+### ip route show
+
+#### Show specific interface (e.g., eth0)
+### ip addr show eth0
+
+#### Show only interfaces that are UP
+### ip link show up
+
+## ss Command - Socket Statistics (Modern netstat)
+
+#### Show all listening and established connections
+### ss -tunap
+
+#### Show only listening ports
+### ss -tunlp
+
+#### Show only established connections
+### ss -tunap | grep ESTAB
+
+#### Filter by port number (e.g., 2379 for etcd)
+### ss -tunap | grep :2379
+
+#### Show TCP connections only
+### ss -t
+
+#### Show UDP connections only
+### ss -u
+
+## netstat Command - Network Statistics (Traditional)
+
+#### Show all connections with listening programs
+### netstat -tunap
+
+#### Show listening ports only
+### netstat -tunlp
+
+#### Show routing table
+### netstat -rn
+
+#### Show network interface statistics
+### netstat -i
 ========================================================================================================================================================
 
 ![image](https://github.com/afrid0315/kubernetes-projects/assets/126462435/2c068f7c-2c7c-4e12-a22e-129d088a712a)
